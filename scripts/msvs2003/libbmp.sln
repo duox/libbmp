@@ -1,0 +1,74 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libbmp.lib", "libbmp.lib.vcproj", "{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bmptool.exe", "..\..\tools\bmptool\scripts\msvs2003\bmptool.exe.vcproj", "{2CDF758C-3FBF-444D-9784-C583BA262F58}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmicra.lib", "..\..\..\libmicra\scripts\msvs2003\libmicra.lib.vcproj", "{94A19170-1251-4F0C-AEEC-7A6617DED17B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libhuffman.lib", "..\..\..\libhuffman\scripts\msvs2003\libhuffman.lib.vcproj", "{8000694E-2403-421F-9B4F-9CF2AAEF0242}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libf2.lib", "..\..\..\libf2\scripts\msvs2003\libf2.lib.vcproj", "{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libico.lib", "..\..\..\libico\scripts\msvs2003\libico.lib.vcproj", "{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		debug = debug
+		final = final
+		release = release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}.debug.ActiveCfg = debug|Win32
+		{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}.debug.Build.0 = debug|Win32
+		{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}.final.ActiveCfg = final|Win32
+		{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}.final.Build.0 = final|Win32
+		{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}.release.ActiveCfg = release|Win32
+		{FE3DC9C2-88B8-4CA3-B9AD-07FDF5862366}.release.Build.0 = release|Win32
+		{2CDF758C-3FBF-444D-9784-C583BA262F58}.debug.ActiveCfg = debug|Win32
+		{2CDF758C-3FBF-444D-9784-C583BA262F58}.debug.Build.0 = debug|Win32
+		{2CDF758C-3FBF-444D-9784-C583BA262F58}.final.ActiveCfg = final|Win32
+		{2CDF758C-3FBF-444D-9784-C583BA262F58}.final.Build.0 = final|Win32
+		{2CDF758C-3FBF-444D-9784-C583BA262F58}.release.ActiveCfg = release|Win32
+		{2CDF758C-3FBF-444D-9784-C583BA262F58}.release.Build.0 = release|Win32
+		{94A19170-1251-4F0C-AEEC-7A6617DED17B}.debug.ActiveCfg = debug|Win32
+		{94A19170-1251-4F0C-AEEC-7A6617DED17B}.debug.Build.0 = debug|Win32
+		{94A19170-1251-4F0C-AEEC-7A6617DED17B}.final.ActiveCfg = final|Win32
+		{94A19170-1251-4F0C-AEEC-7A6617DED17B}.final.Build.0 = final|Win32
+		{94A19170-1251-4F0C-AEEC-7A6617DED17B}.release.ActiveCfg = release|Win32
+		{94A19170-1251-4F0C-AEEC-7A6617DED17B}.release.Build.0 = release|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.debug.ActiveCfg = debug|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.debug.Build.0 = debug|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.final.ActiveCfg = final|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.final.Build.0 = final|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.release.ActiveCfg = release|Win32
+		{8000694E-2403-421F-9B4F-9CF2AAEF0242}.release.Build.0 = release|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.debug.ActiveCfg = debug|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.debug.Build.0 = debug|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.final.ActiveCfg = final|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.final.Build.0 = final|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.release.ActiveCfg = release|Win32
+		{93D88D60-A2A1-4B73-A9C6-A3F28F92AA9A}.release.Build.0 = release|Win32
+		{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}.debug.ActiveCfg = release|Win32
+		{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}.debug.Build.0 = release|Win32
+		{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}.final.ActiveCfg = final|Win32
+		{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}.final.Build.0 = final|Win32
+		{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}.release.ActiveCfg = release|Win32
+		{72CBE40F-2F77-4AC5-93F7-B31CF0A8AA4D}.release.Build.0 = release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

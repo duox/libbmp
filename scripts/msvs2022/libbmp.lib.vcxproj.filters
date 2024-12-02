@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\codecs">
+      <UniqueIdentifier>{2e4c958f-d0fc-4d93-9d1f-3320e6afd496}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\formats">
+      <UniqueIdentifier>{13289ee8-650e-4811-ad48-206ac29b55f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{9f545a0d-4a18-4b13-b7e6-379c4ea3147f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{1435d279-a829-471b-a9c6-de8f31cf0d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="old">
+      <UniqueIdentifier>{09ebe35f-a17c-4e63-9f88-72ab9f45d77e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\core\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\pch.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\alpha_bitfields.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\bitfields.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\huffman1d.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\jpeg.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\png.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\rle24.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\rle4.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\rle8.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\codecs\uncomp.c">
+      <Filter>src\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\formats\bmp_os2.c">
+      <Filter>src\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\formats\bmp_win.c">
+      <Filter>src\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\bitmap.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\detect.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\diag.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\dump.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\read.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\core\write.c">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\formats\bmp.c">
+      <Filter>old</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\formats\ico_win.c">
+      <Filter>old</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\core\main.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\pch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\core\bmpdefs.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libbmp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libbmpcf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\docs\todo.md">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="..\..\README.md" />
+  </ItemGroup>
+</Project>
